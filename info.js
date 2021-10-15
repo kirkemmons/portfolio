@@ -63,7 +63,7 @@ let info = {
       date: "Aug, 2021 - Present",
       position: "Full Stack Web Developer",
       description:
-        "Developing back-end website applications. Creating servers and databases for functionality. Ensuring responsiveness of applications. Designing and developing APIs.Meeting both technical and consumer needs. Staying abreast of developments in web applications and programming languages.",
+        "Developing front-end website architecture.Designing user interactions on web pages.Developing back-end website applications.Creating servers and databases for functionality.Ensuring responsiveness of applications.Working alongside graphic designers for web design features.Seeing through a project from conception to finished product.Designing and developing APIs.Meeting both technical and consumer needs.Staying abreast of developments in web applications and programming languages. Degree: Program Help Cod COR 351201.Strong organizational and project management skills.Proficiency with fundamental front-end languages such as HTML, CSS, and JavaScript.Familiarity with JavaScript frameworks such as Angular JS, React.js, and Vue.js.",
         skills: [
           "HTML5",
           "CSS3",
