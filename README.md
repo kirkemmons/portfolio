@@ -141,5 +141,5 @@ Reach out to me at one of the following places!
 
 
 
-- 
+
 - Copyright 2021 © <a href="https://github.com/Natain/natain-portfolio/tree/main" target="_blank">Natain Bogdan</a>
