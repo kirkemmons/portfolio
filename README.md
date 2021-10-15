@@ -141,5 +141,5 @@ Reach out to me at one of the following places!
 
 
 
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2020 © <a href="https://github.com/Natain/natain-portfolio/tree/main" target="_blank">Natain Bogdan</a>
+- 
+- Copyright 2021 © <a href="https://github.com/Natain/natain-portfolio/tree/main" target="_blank">Natain Bogdan</a>
