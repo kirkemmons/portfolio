@@ -25,6 +25,7 @@
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
             />
           </div>
+          
           <div class="modal-body my-0 pb-0 px-4 pt-0">
             <div
               class="mb-2 date"

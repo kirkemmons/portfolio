@@ -39,6 +39,7 @@
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
           >
+          
             <span>
               – {{ d.author }}, {{ d.position }}, {{ d.company }},
               {{ d.location }}</span

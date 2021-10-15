@@ -43,6 +43,7 @@ export default {
       config: info.config,
     };
   },
+  
   created() {
     if (this.config.use_cookies) {
       this.nightMode = this.$cookie.get("nightMode") === "true" ? true : false;

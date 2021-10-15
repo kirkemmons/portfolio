@@ -28,6 +28,7 @@ export default {
 };
 </script>
 
+
 <style scoped>
 .logo-div:hover .logo-title-name {
   letter-spacing: 0px;

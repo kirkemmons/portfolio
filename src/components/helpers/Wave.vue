@@ -33,6 +33,7 @@ span.wave {
   40% {
     transform: rotate(9deg);
   }
+  
   50% {
     transform: rotate(0deg);
   } /* Reset for the last half to pause */

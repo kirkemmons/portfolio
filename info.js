@@ -203,8 +203,23 @@ let info = {
         "Gitscores v1.0.2 was updated from the orginal with more tools that let you personalize the app on your desingn."
     }
   ],
-  portfolio_design: [
-
+   recommendations: [
+    {
+      title:
+        "In his internship, Bogdan Natain has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
+      author: "Timothy Gray",
+      position: "CTO",
+      company: "Startup Norway As",
+      location: " Oslo, Norway"
+    },
+    {
+      title:
+        "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
+      author: "Hansley Jacob",
+      position: "Project Manager",
+      company: "Startup Norway As",
+      location: "Oslo, Norway"
+    }
   ]
 };
 

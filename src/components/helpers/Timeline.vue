@@ -37,6 +37,7 @@
                   {{ e.description }}
                 </div>
                 <span
+                
                   class="mx-2 badge p-2 mb-2"
                   v-for="s in e.skills"
                   :key="s"

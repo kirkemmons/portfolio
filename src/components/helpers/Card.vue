@@ -8,6 +8,7 @@
         'bg-dark3': nightMode,
       }"
     >
+    
       <div style="height: 180px;">
         <img
           class="card-img-top"

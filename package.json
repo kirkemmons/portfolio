@@ -25,6 +25,7 @@
     "vue-selector": "0.0.1",
     "vueperslides": "^2.10.2"
   },
+  
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
     "@vue/cli-plugin-eslint": "~4.3.0",

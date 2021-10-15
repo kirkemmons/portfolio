@@ -34,6 +34,7 @@
               v-for="(portfolio, idx) in portfolio_info"
               :key="portfolio.name"
             >
+            
               <Card
                 :style="{ 'transition-delay': (idx % 3) / 4.2 + 's' }"
                 :portfolio="portfolio"

@@ -26,6 +26,7 @@
               ><i class="fas fa-times"></i
             ></a>
             <hr
+            
               class="my-1"
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
             />

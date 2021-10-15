@@ -36,6 +36,7 @@
   </div>
 </template>
 
+
 <script>
 import Timeline from "./helpers/Timeline";
 import info from "../../info";
