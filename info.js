@@ -15,7 +15,7 @@ let info = {
     github: "https://github.com/Natain",
     angellist: "https://angel.co/u/Natain-Bogdan",
     resume:
-      "https://github.com/Natain/My-resume-2021/blob/main/Resume.pdf"
+      "https://github.com/Natain/Resume/blob/main/Resume-Natain-Bogdan.pdf"
   },
   education: [
     {
@@ -224,3 +224,6 @@ let info = {
 };
 
 export default info;
+
+
+
