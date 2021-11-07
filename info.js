@@ -82,8 +82,8 @@ let info = {
       title: "languages",
       info: [
         "Javascript",
-        "NodeJS",
-        "PHP",
+        "CSS",
+        "HTML5"
 
       ],
       icon: "fa fa-code"
@@ -97,7 +97,7 @@ let info = {
     },
     {
       title: "web technologies",
-      info: ["Vue",  "React", "Node", "HTML", "CSS"],
+      info: ["Vue.js",  "React.js", "Node.js", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
     },
     {
