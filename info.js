@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "I'm a Junior Full-stack web developer with a passion for building projects that are used routinely. Building applications in Laravel, React, JavaScript, and Vue.js. Former supervisor and finance professional who's eager to enhance a company's user experience. ",
+    "I'm a Front-end  Web Developer with a passion for building projects that are used routinely. Building applications in JavaScript. Former supervisor and finance professional who's eager to enhance a company's user experience. ",
   links: {
     linkedin: "https://www.linkedin.com/in/natain/",
     github: "https://github.com/Natain",
@@ -26,7 +26,7 @@ let info = {
       gpa: "3.7/4.0",
 
       skills: [
-        // "Skils gained:",
+        // "Skills gained:",
         // "Design, conduct and interpret research and statistical analysis. ",
         // "Apply an evidence-based approach to problems.",
         // "Communicate findings using models, charts and graphs.",
@@ -58,25 +58,21 @@ let info = {
   experience: [
 
     {
-      name: "Frelancer",
+      name: "Freelancer",
       place: "Bucharest, Romania",
       date: "Aug, 2021 - Present",
       position: "Full Stack Web Developer",
       description:
-        "Developing front-end website architecture.Designing user interactions on web pages.Developing back-end website applications.Creating servers and databases for functionality.Ensuring responsiveness of applications.Working alongside graphic designers for web design features.Seeing through a project from conception to finished product.Designing and developing APIs.Meeting both technical and consumer needs.Staying abreast of developments in web applications and programming languages. Degree: Program Help Cod COR 351201.Strong organizational and project management skills.Proficiency with fundamental front-end languages such as HTML, CSS, and JavaScript.Familiarity with JavaScript frameworks such as Angular JS, React.js, and Vue.js.",
+        "Developing Front-end website architecture.Designing user interactions on web pages.Ensuring responsiveness of applications.Working alongside graphic designers for web design features.Seeing through a project from conception to finished product.Staying abreast of developments in web applications and programming languages. Degree: Program Help Cod COR 351201.Strong organizational and project management skills.Proficiency with fundamental Front-end languages such as HTML, CSS, and JavaScript.Familiarity with JavaScript frameworks such as  React.js, and Vue.js.",
         skills: [
           "HTML5",
           "CSS3",
           "JavaScript",
+          "Bootstrap",
           "React.js",
           "Vue.js",
-          "Bootstrap",
-          "PHP",
-          "MySql",
-          "MariaDB",
-          "SQL",
-          "OOP",
-          "Laravel"
+
+
         ]
     },
 
@@ -85,13 +81,9 @@ let info = {
     {
       title: "languages",
       info: [
-        "Python",
         "Javascript",
-        "TypeScript",
-        "Swift",
-        "PHP",
-        "Ruby",
         "NodeJS",
+        "PHP",
 
       ],
       icon: "fa fa-code"
@@ -99,14 +91,13 @@ let info = {
     {
       title: "data frameworks",
       info: [
-        "Pandas",
         "Pillow"
       ],
       icon: "fa fa-cubes"
     },
     {
       title: "web technologies",
-      info: ["Vue", "Angular", "React", "Node", "Flask", "HTML", "CSS"],
+      info: ["Vue",  "React", "Node", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
     },
     {
@@ -118,12 +109,9 @@ let info = {
       title: "operating systems & tools",
       info: [
         "MacOS",
-        "Ubuntu",
         "Windows",
         "Android",
-        "Agile",
         "Scrum",
-        "JIRA",
         "Heroku",
         "Firebase",
         "AWS S3"
