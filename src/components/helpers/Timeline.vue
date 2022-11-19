@@ -38,7 +38,7 @@
                 </div>
                 <span
                 
-                  class="mx-2 badge p-2 mb-2"
+                  class="mx-2 badge p-2 my-2"
                   v-for="s in e.skills"
                   :key="s"
                   :class="{ 'bg-dark2': nightMode }"

@@ -3,7 +3,7 @@
     class="py-4 p-st"
     :class="{
       'bg-light': !nightMode,
-      'bg-dark2': nightMode,
+      'bg-dark': nightMode,
       'text-light': nightMode,
     }"
   >
@@ -41,7 +41,7 @@
             class="pinput"
             :class="{
               pgray: !nightMode,
-              'pgray-dark': nightMode,
+              'bg-dark2': nightMode,
               'text-light': nightMode,
             }"
             style="transition-delay: 0.2s"
@@ -62,7 +62,7 @@
             class="pinput"
             :class="{
               pgray: !nightMode,
-              'pgray-dark': nightMode,
+              'bg-dark2': nightMode,
               'text-light': nightMode,
             }"
             style="transition-delay: 0.4s"
@@ -83,7 +83,7 @@
             rows="4"
             :class="{
               pgray: !nightMode,
-              'pgray-dark': nightMode,
+              'bg-dark2': nightMode,
               'text-light': nightMode,
             }"
             style="transition-delay: 0.6s"

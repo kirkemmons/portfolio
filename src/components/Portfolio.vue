@@ -26,16 +26,16 @@
       />
 
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
-        <v-tab title="projects">
-          <br />
+        <v-tab title="projects &amp; professional experience">
+
           <div class="row">
             <div
               class="col-xl-4 col-bg-4 col-md-6 col-sm-12"
               v-for="(portfolio, idx) in portfolio_info"
-              :key="portfolio.name"
+              :key="idx"
             >
             
-              <Card
+              <ProjectCard
                 :style="{ 'transition-delay': (idx % 3) / 4.2 + 's' }"
                 :portfolio="portfolio"
                 @show="showModalFn"
@@ -47,7 +47,7 @@
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 data-aos-once="true"
-              />``
+              />
             </div>
           </div>
           <div class="text-center py-3" v-if="showBtn !== 'show less'">
@@ -55,16 +55,14 @@
           </div>
         </v-tab>
 
-        <v-tab title="professional experience">
+        <v-tab title="design">
           <div class="row">
             <div
-              v-for="(design, idx) in desgin_info"
+              class="col-xl-4 col-bg-4 col-md-6 col-sm-12"
+              v-for="(professional, idx) in professional_info"
               :key="idx"
-              :class="{ 'mt-4': idx === 0 ? true : true }"
-              class="col-xl-6 col-bg-6 col-md-12 col-sm-12"
-              style="position: relative;"
             >
-              <vueper-slides
+              <!-- <vueper-slides
                 :dragging-distance="50"
                 fixed-height="300px"
                 :bullets="false"
@@ -78,12 +76,9 @@
                   :key="i"
                   :image="slide.img"
                 />
-              </vueper-slides>
-              <div
-                style="width: 100%; display: flex; justify-content: space-between"
-                class="mt-2"
-              >
-                <div>
+              </vueper-slides> -->
+              
+                <!-- <div>
                   <div class="title2" style="font-weight: 500;">{{ design.title }}</div>
                   <span
                     class="badge mr-2 mb-2"
@@ -102,11 +97,11 @@
                   @click.prevent="showDesignModalFn(design)"
                 >
                   read more
-                </button>
-              </div>
+                </button> -->
+              
             </div>
           </div>
-          <br />
+
         </v-tab>
       </vue-tabs>
     </div>
@@ -132,7 +127,7 @@
 </template>
 
 <script>
-import Card from "./helpers/Card";
+import ProjectCard from "./helpers/ProjectCard";
 import Modal from "./helpers/Modal";
 import DesignModal from "./helpers/DesignModal";
 import Carousel from "./helpers/Carousel";
@@ -147,7 +142,7 @@ import "vueperslides/dist/vueperslides.css";
 export default {
   name: "Portfolio",
   components: {
-    Card,
+    ProjectCard,
     Modal,
     VueTabs,
     VTab,

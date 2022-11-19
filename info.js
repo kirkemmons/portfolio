@@ -64,9 +64,9 @@ let info = {
       name: "Freelancer",
       place: "Ithaca, NY",
       date: "March, 2022 - Present",
-      position: "Full Stack Web Developer",
+      position: "Full Stack Web Developer (Remote)",
       description:
-        "",
+        "Have contributed new and efficient code to live marketing websites including Austin, TX Alive and Well and Prosthodontics of Texas whiltst buidling out new web pages and maintaining existing codebases. Also have built out from scratch various marketing websites that have been re-written with Nuxt.js that include LaundryLuv, ShareGro and ASP-Clips. All live, up and running.",
         skills: [
           "Nuxt.js",
           "Vue.js",
@@ -86,113 +86,117 @@ let info = {
       info: [
         "Javascript",
         "CSS",
-        "HTML5"
+        "HTML",
+        "Python"
 
       ],
       icon: "fa fa-code"
     },
-    {
-      title: "data frameworks",
-      info: [
-        "Pillow"
-      ],
-      icon: "fa fa-cubes"
-    },
+    // {
+    //   title: "data frameworks",
+    //   info: [
+    //     ""
+    //   ],
+    //   icon: "fa fa-cubes"
+    // },
     {
       title: "web technologies",
-      info: ["Vue.js",  "React.js", "Node.js", "HTML", "CSS"],
+      info: ["Vue.js",  "Nuxt.js", "React.js", "Node.js", "Express.js", "Django", "HTML", "CSS", "HTTP", "REST"],
       icon: "fas fa-laptop-code"
     },
     {
       title: "databases",
-      info: ["MongoDB", "MySQL", "OracleSQL",],
+      info: ["MongoDB", "SQL", "PostgresSQL"],
       icon: "fa fa-database"
+    },
+    {
+      title: "design",
+      info: ["Illustrator", "Photoshop"],
+      icon: "fa fa-pencil-square-o"
     },
     {
       title: "operating systems & tools",
       info: [
         "MacOS",
         "Windows",
-        "Android",
+        "Git",
         "Scrum",
+        "Github",
         "Heroku",
-        "Firebase",
-        "AWS S3"
+        "Netlify",
+        "Figma",
+        "Trello",
+        "CLI", 
+        "VSCode"
       ],
       icon: "fas fa-tools"
-    },
-    {
-      title: "design",
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
-      icon: "fa fa-pencil-square-o"
     }
   ],
   portfolio: [
 
     {
-      name: "Todo-application",
+      name: "DirectorsUncut",
       pictures: [
-
+        
         {
-          img: require("./src/assets/portfolio/todo-application/one.png")
+          img: require("./src/assets/portfolio/projects/directorsUncut2.png")
         },
         {
-          img: require("./src/assets/portfolio/todo-application/two.png")
+          img: require("./src/assets/portfolio/projects/directorsUncut1.png")
         },
 
       ],
-      technologies: ["JavaScript", "HTML5", "Netlify"],
-      category: "web todo list  app ",
-      github: "https://github.com/Natain/todo-application",
-      visit: "https://natainbogdan.netlify.app/",
+      technologies: ["React.js", "React Router", "Vanilla CSS", "Python", "Django"],
+      category: "Project",
+      github: "https://github.com/kirkemmons/directors_client",
+      visit: "https://kirkemmons.github.io/directors_client/",
+      date: "February, 2022",
       description:
-        "Todo Application was made to help me with the learning schedule and it seams was doing a great job this app helping me to organize all the daily tasks."
+        "DirectorsUncut is an online database where you can keep track of your favorite directors and movies. The application will feature information on each director and details about their films. The site is authenticated, which allows users to keep track of Director and Film information that only they have submitted. Users will also be able to add, update and delete directors and films from the list."
     },
 
-
-
     {
-      name: "Grocery-listing-react",
+      name: "Laundry Luv",
       pictures: [
+        {
+          img: require("./src/assets/portfolio/projects/laundryluv1.png")
+        },
+        {
+          img: require("./src/assets/portfolio/projects/laundryluv2.png")
+        },
         // {
-        //   img: require("./src/assets/portfolio/clumpr/logo.png")
-        // },
-        {
-          img: require("./src/assets/portfolio/grocery/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/grocery/two.png")
-        }
+        //   img: require("./src/assets/portfolio/grocery/two.png")
+        // }
       ],
-      technologies: ["CSS", "JavaScript","React.js", "HTML5",],
-      category: "Web App",
-      github: "https://github.com/Natain/grocery-listing-react",
-      date: "",
-      visit: "https://grocery-listing-react.netlify.app/",
-      description:  "Grocery-listing-react it's a simple app that can help you doing shoppings.",
+      technologies: ["Nuxt.js", "Bootstrap","SASS", "Netlify CMS",],
+      category: "Marketing Website",
+      github: "",
+      date: "April, 2022",
+      visit: "https://www.laundryluv.com/",
+      description:  "Laundrymat website that offers various business laundry services throughout Texas. Built out with Nuxt.js.",
     },
-    {
-      name: "Gitscores",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/Gitscores/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/Gitscores/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/Gitscores/three.png")
-        },
+    // {
+    //   name: "Gitscores",
+    //   pictures: [
+    //     // {
+    //     //   img: require("./src/assets/portfolio/Gitscores/one.png")
+    //     // },
+    //     // {
+    //     //   img: require("./src/assets/portfolio/Gitscores/two.png")
+    //     // },
+    //     // {
+    //     //   img: require("./src/assets/portfolio/Gitscores/three.png")
+    //     // },
 
-      ],
-      technologies: ["JavaScript", "CSS", "EJS", "Herokuapp"],
-      category: "Scoring app for Github",
-      github: "https://github.com/Natain/gitscores",
-      date: "Aug, 2021 - Sep, 2021",
-      visit: "https://gitscores.herokuapp.com/",
-      description:
-        "Gitscores v1.0.2 was updated from the orginal with more tools that let you personalize the app on your desingn."
-    }
+    //   ],
+    //   technologies: ["JavaScript", "CSS", "EJS", "Herokuapp"],
+    //   category: "Scoring app for Github",
+    //   github: "https://github.com/Natain/gitscores",
+    //   date: "Aug, 2021 - Sep, 2021",
+    //   visit: "https://gitscores.herokuapp.com/",
+    //   description:
+    //     "Gitscores v1.0.2 was updated from the orginal with more tools that let you personalize the app on your desingn."
+    // }
   ],
    recommendations: [
     {
