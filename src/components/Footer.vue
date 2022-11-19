@@ -1,18 +1,18 @@
 <template>
-  <div class="bg-secondary">
+  <div class="bg-dark2">
     <div class="container py-3">
       <div class="row pt-1 align-items-center">
         <div
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white;"
         >
-          <span>© 2021 Copyright: Natain Bogdan</span>
+          <span>© 2022 Copyright: Kirk Emmons</span>
         </div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <div class="text-center">
             <button
-              class="btn btn-outline-secondary mx-2 "
+              class="btn btn-outline-secondary mx-2"
               @click="open('linkedin')"
             >
               <i class="fab fa-linkedin"></i>
@@ -23,12 +23,14 @@
             >
               <i class="fab fa-github"></i>
             </button>
-            <button
+
+            <!-- <button
               class="btn btn-outline-secondary mx-2"
-              @click="open('angellist')"
+              @click="open('gmail')"
             >
-              <i class="fab fa-angellist"></i>
-            </button>
+              <i class="fab fa-gmail"></i>
+            </button> -->
+
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('resume')"
@@ -52,7 +54,7 @@ export default {
     return {
       linkedin: info.links.linkedin,
       github: info.links.github,
-      angellist: info.links.angellist,
+      gmail: info.links.gmail,
       resume: info.links.resume,
     };
   },
@@ -65,8 +67,8 @@ export default {
         case "github":
           window.open(this.github, "_blank");
           break;
-        case "angellist":
-          window.open(this.angellist, "_blank");
+        case "gmail":
+          window.open(this.gmail, "_blank");
           break;
         case "resume":
           window.open(this.resume, "_blank");
@@ -105,4 +107,10 @@ span {
     text-align: center;
   }
 }
+
+/* .fa-gmail {
+  content: url('assets/gmail-icon.svg');
+  height: 1em;
+  width: auto;
+} */
 </style>

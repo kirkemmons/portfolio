@@ -26,7 +26,7 @@
       />
 
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
-        <v-tab title="development">
+        <v-tab title="projects">
           <br />
           <div class="row">
             <div
@@ -47,7 +47,7 @@
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 data-aos-once="true"
-              />
+              />``
             </div>
           </div>
           <div class="text-center py-3" v-if="showBtn !== 'show less'">
@@ -55,7 +55,7 @@
           </div>
         </v-tab>
 
-        <v-tab title="design">
+        <v-tab title="professional experience">
           <div class="row">
             <div
               v-for="(design, idx) in desgin_info"

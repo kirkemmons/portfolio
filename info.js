@@ -1,7 +1,7 @@
 let info = {
-  name: "Natain Bogdan",
-  logo_name: "Bogdan",
-  flat_picture: require("./src/assets/potrait.jpg"),
+  name: "Kirk Emmons",
+  logo_name: "Emmons",
+  // flat_picture: require("./src/assets/portrait.png"),
   config: {
     use_cookies: true,
     navbar: {
@@ -9,21 +9,21 @@ let info = {
     }
   },
   description:
-    "I'm a Front-end  Web Developer with a passion for building projects that are used routinely. Building applications in JavaScript. Former supervisor and finance professional who's eager to enhance a company's user experience. ",
+    "I'm a Front-end Web Developer with a passion for building projects that look clean and crisp. I specialize in VueJs and most recently Nuxt.js. Former hospitality professional who's eager to enhance a company's user experience.",
   links: {
-    linkedin: "https://www.linkedin.com/in/natain/",
-    github: "https://github.com/Natain",
-    angellist: "https://angel.co/u/Natain-Bogdan",
+    linkedin: "https://www.linkedin.com/in/kirk-emmons/",
+    github: "https://github.com/kirkemmons",
+    gmail: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=kirkemmons2@gmail.com",
     resume:
-      "https://github.com/Natain/Resume/blob/main/Resume-Natain-Bogdan.pdf"
+      "https://drive.google.com/file/d/10ad2sPuUTnCW1u7NF4zZB8k3gnXBoayK/view?usp=sharing"
   },
   education: [
     {
-      name: "Sapienza Università di Roma",
-      place: "italy",
-      date: "May, 2009 - May, 2011",
-      degree: "Economics Science",
-      gpa: "3.7/4.0",
+      name: "Hobart & William Smith Colleges",
+      place: "Geneva, NY",
+      date: "August, 2009 - May, 2013",
+      degree: "Economics & Public Policy",
+      gpa: "3.1/4.0",
 
       skills: [
         // "Skills gained:",
@@ -36,46 +36,49 @@ let info = {
       ]
     },
     {
-      name: "Ilbah workshops",
+      name: "General Assembly",
       course:"Full Stack Developer",
-      place: "Bucharest/Romania",
-      date: "May, 2021 - Oct, 2021",
-      degree: "Bachelors in Programmer Help, cod COR 351201",
-      gpa: "8.5/10.0",
+      place: "Remote",
+      date: "August, 2021 - March, 2022",
+      degree: "Software Engineering Immersive Certificate",
+      gpa: "",
       description:
-        "",
+        "Full-stack software engineering immersive student in an intensive, 24-week, 420+ hour program focused on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies.",
       skills: [
         "HTML5",
         "CSS3",
         "JavaScript",
-        "OOP",
-        "PHP",
-        "MySql",
-       "Laravel"
+        "Node.js",
+        "JQuery",
+        "Express",
+        "React.js",
+        "Bootstrap",
+        "Python",
+        "SQL",
+        "OOP"
       ]
     }
   ],
   experience: [
-
     {
       name: "Freelancer",
-      place: "Bucharest, Romania",
-      date: "Aug, 2021 - Present",
+      place: "Ithaca, NY",
+      date: "March, 2022 - Present",
       position: "Full Stack Web Developer",
       description:
-        "Developing Front-end website architecture.Designing user interactions on web pages.Ensuring responsiveness of applications.Working alongside graphic designers for web design features.Seeing through a project from conception to finished product.Staying abreast of developments in web applications and programming languages. Degree: Program Help Cod COR 351201.Strong organizational and project management skills.Proficiency with fundamental Front-end languages such as HTML, CSS, and JavaScript.Familiarity with JavaScript frameworks such as  React.js, and Vue.js.",
+        "",
         skills: [
+          "Nuxt.js",
+          "Vue.js",
+          "JavaScript",
           "HTML5",
           "CSS3",
-          "JavaScript",
           "Bootstrap",
-          "React.js",
-          "Vue.js",
-
-
-        ]
+          "Vuetify",
+          "Pug",
+          "Netlify CMS"
+      ]
     },
-
   ],
   skills: [
     {
@@ -212,6 +215,3 @@ let info = {
 };
 
 export default info;
-
-
-
