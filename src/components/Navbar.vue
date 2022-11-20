@@ -3,7 +3,7 @@
     <nav
       class="navbar navbar-expand-lg navbar-light fixed-top p-st"
       :class="{
-        'bg-light': !nightMode,
+        'bg-light2': !nightMode,
         'navbar-blur': navbarConfig.blur,
         'bg-dark2': nightMode,
       }"

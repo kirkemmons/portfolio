@@ -108,6 +108,10 @@ export default {
   color: #669db3ff;
 }
 
+.bg-light2 {
+  background-color: #e9ecef;
+}
+
 .bg-dark2 {
   background-color: #262c30 !important;
 }

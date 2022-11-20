@@ -2,7 +2,7 @@
   <div
     class="py-4 p-st"
     :class="{
-      'bg-light': !nightMode,
+      'bg-white': !nightMode,
       'bg-dark': nightMode,
       'text-light': nightMode,
     }"
@@ -40,7 +40,7 @@
             placeholder="name"
             class="pinput"
             :class="{
-              pgray: !nightMode,
+              'bg-light2': !nightMode,
               'bg-dark2': nightMode,
               'text-light': nightMode,
             }"
@@ -61,7 +61,7 @@
             placeholder="email"
             class="pinput"
             :class="{
-              pgray: !nightMode,
+              'bg-light2': !nightMode,
               'bg-dark2': nightMode,
               'text-light': nightMode,
             }"
@@ -82,7 +82,7 @@
             class="pinput"
             rows="4"
             :class="{
-              pgray: !nightMode,
+              'bg-light2': !nightMode,
               'bg-dark2': nightMode,
               'text-light': nightMode,
             }"

@@ -23,7 +23,7 @@ let info = {
       place: "Geneva, NY",
       date: "August, 2009 - May, 2013",
       degree: "Economics & Public Policy",
-      gpa: "3.1/4.0",
+      gpa: "",
 
       skills: [
         // "Skills gained:",
@@ -135,6 +135,27 @@ let info = {
   portfolio: [
 
     {
+      name: "ASP-Clips",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/projects/clips2.png")
+        },
+        {
+          img: require("./src/assets/portfolio/projects/clips3.png")
+        },
+        {
+          img: require("./src/assets/portfolio/projects/clips1.png")
+        }
+      ],
+      technologies: ["Nuxt.js", "Bootstrap","SASS", "Netlify CMS"],
+      category: "Marketing Website",
+      github: "",
+      date: "August, 2022",
+      visit: "https://www.aspclips.com/",
+      description:
+        "Marketing website that offers car parts repair and delivery services based in Texas. Built out with Nuxt.js."
+    },
+    {
       name: "DirectorsUncut",
       pictures: [
         
@@ -154,7 +175,24 @@ let info = {
       description:
         "DirectorsUncut is an online database where you can keep track of your favorite directors and movies. The application will feature information on each director and details about their films. The site is authenticated, which allows users to keep track of Director and Film information that only they have submitted. Users will also be able to add, update and delete directors and films from the list."
     },
-
+    {
+      name: "ShareGro",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/projects/ShareGro2.png")
+        },
+        {
+          img: require("./src/assets/portfolio/projects/ShareGro1.png")
+        }
+      ],
+      technologies: ["Nuxt.js", "Bootstrap","SASS", "Netlify CMS"],
+      category: "Marketing Website",
+      github: "",
+      date: "July, 2022",
+      visit: "https://sharegro.netlify.app/",
+      description:
+        "Marketing website that offers insight on building wealth through a new stock trading app called ShareGro. Built out with Nuxt.js."
+    },
     {
       name: "Laundry Luv",
       pictures: [
@@ -163,40 +201,15 @@ let info = {
         },
         {
           img: require("./src/assets/portfolio/projects/laundryluv2.png")
-        },
-        // {
-        //   img: require("./src/assets/portfolio/grocery/two.png")
-        // }
+        }
       ],
-      technologies: ["Nuxt.js", "Bootstrap","SASS", "Netlify CMS",],
+      technologies: ["Nuxt.js", "Bootstrap","SASS", "Netlify CMS"],
       category: "Marketing Website",
       github: "",
       date: "April, 2022",
       visit: "https://www.laundryluv.com/",
       description:  "Laundrymat website that offers various business laundry services throughout Texas. Built out with Nuxt.js.",
-    },
-    // {
-    //   name: "Gitscores",
-    //   pictures: [
-    //     // {
-    //     //   img: require("./src/assets/portfolio/Gitscores/one.png")
-    //     // },
-    //     // {
-    //     //   img: require("./src/assets/portfolio/Gitscores/two.png")
-    //     // },
-    //     // {
-    //     //   img: require("./src/assets/portfolio/Gitscores/three.png")
-    //     // },
-
-    //   ],
-    //   technologies: ["JavaScript", "CSS", "EJS", "Herokuapp"],
-    //   category: "Scoring app for Github",
-    //   github: "https://github.com/Natain/gitscores",
-    //   date: "Aug, 2021 - Sep, 2021",
-    //   visit: "https://gitscores.herokuapp.com/",
-    //   description:
-    //     "Gitscores v1.0.2 was updated from the orginal with more tools that let you personalize the app on your desingn."
-    // }
+    }
   ],
    recommendations: [
     {
