@@ -9,13 +9,13 @@ let info = {
     }
   },
   description:
-    "I'm a Front-end Web Developer with a passion for building projects that look clean and crisp. I specialize in VueJs and most recently Nuxt.js. Former hospitality professional who's eager to enhance a company's user experience.",
+    "I'm a Front-end Web Developer with a passion for building projects that are clean and crisp. I specialize in VueJs and most recently Nuxt.js. Former hospitality professional who's eager to enhance a company's user experience.",
   links: {
     linkedin: "https://www.linkedin.com/in/kirk-emmons/",
     github: "https://github.com/kirkemmons",
     gmail: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=kirkemmons2@gmail.com",
     resume:
-      "https://drive.google.com/file/d/10ad2sPuUTnCW1u7NF4zZB8k3gnXBoayK/view?usp=sharing"
+      "https://docs.google.com/document/d/1DqGFo1v-f1wUF0p_iJlnI9fc-4--evvVcD5uN5l0yCU/edit?usp=sharing"
   },
   education: [
     {
@@ -50,7 +50,7 @@ let info = {
         "JavaScript",
         "Node.js",
         "JQuery",
-        "Express",
+        "Express.js",
         "React.js",
         "Bootstrap",
         "Python",
@@ -64,9 +64,9 @@ let info = {
       name: "Freelancer",
       place: "Ithaca, NY",
       date: "March, 2022 - Present",
-      position: "Full Stack Web Developer (Remote)",
+      position: "Front-end Web Developer (Remote)",
       description:
-        "Have contributed new and efficient code to live marketing websites including Austin, TX Alive and Well and Prosthodontics of Texas whiltst buidling out new web pages and maintaining existing codebases. Also have built out from scratch various marketing websites that have been re-written with Nuxt.js that include LaundryLuv, ShareGro and ASP-Clips. All live, up and running.",
+        "Contributed new and efficient code to live marketing websites including Austin, TX Alive and Well and Prosthodontics of Texas whilst buidling out new web pages and maintaining existing codebases. Also have built out from scratch various marketing websites that have been re-written with Nuxt.js that include LaundryLuv, ShareGro and ASP-Clips. All live, up and running.",
         skills: [
           "Nuxt.js",
           "Vue.js",
