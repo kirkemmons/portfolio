@@ -10,12 +10,25 @@
     >
       <div class="container">
         <a
-          class="navbar-brand"
+          class="navbar-brand mr-5"
           href="/"
           @click.prevent="$emit('scroll', 'home')"
         >
           <Logo :nightMode="nightMode" />
         </a>
+        
+        <a
+          class="location-div ml-auto mt-1 mr-4"
+          href="https://goo.gl/maps/Bb7z2zuARmZgyv458"
+          target="_blank"
+          v-tooltip.bottom="'Location'"
+        >
+          <span 
+          class="location-name"
+          :class="{ 'text-light': nightMode }">
+          Ithaca, NY</span>
+        </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -144,4 +157,23 @@ nav {
   background-color: #ffffff7e;
   backdrop-filter: blur(12px);
 }
+
+.location-div:hover .location-name {
+  letter-spacing: 1.5px;
+  transition: 0.5s all;
+  text-decoration: none;
+}
+
+.location-name {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  transition: 0.5s all;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 </style>

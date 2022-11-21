@@ -173,7 +173,7 @@ let info = {
       visit: "https://kirkemmons.github.io/directors_client/",
       date: "February, 2022",
       description:
-        "DirectorsUncut is an online database where you can keep track of your favorite directors and movies. The application will feature information on each director and details about their films. The site is authenticated, which allows users to keep track of Director and Film information that only they have submitted. Users will also be able to add, update and delete directors and films from the list."
+        "DirectorsUncut is an online database where you can keep track of your favorite directors and movies. The application will feature information on each director and details about their films. The site is authenticated, which allows users to keep track of director and film information that only the signed in user has submitted. Users will be able to add, update and delete directors and films from their list."
     },
     {
       name: "ShareGro",
