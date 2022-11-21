@@ -6,20 +6,23 @@
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white;"
         >
-          <span>© 2022 Copyright: Kirk Emmons</span>
+          <span>© {{ currentYear }} Copyright: Kirk Emmons</span>
         </div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <div class="text-center">
+
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('linkedin')"
+              v-tooltip.bottom="'LinkedIn'"
             >
               <i class="fab fa-linkedin"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('github')"
+              v-tooltip.bottom="'GitHub'"
             >
               <i class="fab fa-github"></i>
             </button>
@@ -27,6 +30,7 @@
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('gmail')"
+              v-tooltip.bottom="'Gmail'"
             >
               <i class="fa fa-envelope"></i>
             </button>
@@ -34,9 +38,11 @@
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('resume')"
+              v-tooltip.bottom="'Resume'"
             >
               <i class="fa fa-file"></i>
             </button>
+
           </div>
         </div>
       </div>
@@ -56,6 +62,8 @@ export default {
       github: info.links.github,
       gmail: info.links.gmail,
       resume: info.links.resume,
+
+      currentYear: new Date().getFullYear()
     };
   },
   methods: {
