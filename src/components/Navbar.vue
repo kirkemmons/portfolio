@@ -28,7 +28,7 @@
           :class="{ 'text-light': nightMode }">
           Ithaca, NY</span>
         </a>
-
+        
         <button
           class="navbar-toggler"
           type="button"

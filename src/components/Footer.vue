@@ -24,12 +24,12 @@
               <i class="fab fa-github"></i>
             </button>
 
-            <!-- <button
+            <button
               class="btn btn-outline-secondary mx-2"
               @click="open('gmail')"
             >
-              <i class="fab fa-gmail"></i>
-            </button> -->
+              <i class="fa fa-envelope"></i>
+            </button>
 
             <button
               class="btn btn-outline-secondary mx-2"
@@ -80,6 +80,11 @@ export default {
 </script>
 
 <style scoped>
+
+.fa {
+  font-size: 15px;
+}
+
 span {
   font-weight: 500;
 }
@@ -87,6 +92,7 @@ span {
 .btn {
   border-color: white;
   color: white;
+  width: 40px;
 }
 
 .btn:hover {
@@ -108,9 +114,4 @@ span {
   }
 }
 
-/* .fa-gmail {
-  content: url('assets/gmail-icon.svg');
-  height: 1em;
-  width: auto;
-} */
 </style>

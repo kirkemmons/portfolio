@@ -39,14 +39,14 @@
               <i class="fab fa-github"></i>
             </button>
 
-            <!-- <button
+            <button
             
               class="btn btn-outline-secondary mx-2"
-              @click="open('angellist')"
-              v-tooltip.bottom="'AngelList'"
+              @click="open('gmail')"
+              v-tooltip.bottom="'Gmail'"
             >
-              <i class="fab fa-angellist"></i>
-            </button> -->
+              <i class="fa fa-envelope"></i>
+            </button>
 
             <button
               class="btn btn-outline-secondary mx-2"
@@ -84,7 +84,7 @@ export default {
       name: info.name,
       linkedin: info.links.linkedin,
       github: info.links.github,
-      angellist: info.links.angellist,
+      gmail: info.links.gmail,
       resume: info.links.resume
     };
   },
@@ -97,8 +97,8 @@ export default {
         case "github":
           window.open(this.github, "_blank");
           break;
-        case "angellist":
-          window.open(this.angellist, "_blank");
+        case "gmail":
+          window.open(this.gmail, "_blank");
           break;
         case "resume":
           window.open(this.resume, "_blank");
@@ -140,6 +140,7 @@ img {
 .btn {
   border-color: #669db3ff;
   color: #669db3ff;
+  width: 40px
 }
 
 .btn:hover {
