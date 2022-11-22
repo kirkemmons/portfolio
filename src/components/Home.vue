@@ -13,7 +13,7 @@
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
           <img :src="picture" />
         </div>
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 py-5 pr-4">
+        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 py-5 px-4">
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"

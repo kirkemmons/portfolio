@@ -61,7 +61,7 @@ let info = {
   ],
   experience: [
     {
-      name: "Freelancer",
+      name: "Freelance",
       place: "Ithaca, NY",
       date: "March, 2022 - Present",
       position: "Front-end Web Developer (Remote)",

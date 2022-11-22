@@ -91,7 +91,7 @@
                 ><i
                   :class="{
                     'fas fa-moon': nightMode,
-                    'far fa-moon': !nightMode,
+                    'fa fa-moon': !nightMode,
                   }"
                   v-tooltip.bottom="nightMode ? 'Light Mode' : 'Night Mode'"
                 ></i
