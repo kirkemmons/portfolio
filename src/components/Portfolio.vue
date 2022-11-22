@@ -114,7 +114,7 @@
         :nightMode="nightMode"
       />
     </transition>
-    <transition name="modal">
+    <!-- <transition name="modal">
       <DesignModal
         :showModal="showDesignModal"
         @close="closeModal"
@@ -122,22 +122,22 @@
         :portfolio="design_modal_info"
         :nightMode="nightMode"
       />
-    </transition>
+    </transition> -->
   </div>
 </template>
 
 <script>
 import ProjectCard from "./helpers/ProjectCard";
 import Modal from "./helpers/Modal";
-import DesignModal from "./helpers/DesignModal";
-import Carousel from "./helpers/Carousel";
+// import DesignModal from "./helpers/DesignModal";
+// import Carousel from "./helpers/Carousel";
 import info from "../../info";
 
 import { VueTabs, VTab } from "vue-nav-tabs";
 import "vue-nav-tabs/themes/vue-tabs.css";
 
-import { VueperSlides, VueperSlide } from "vueperslides";
-import "vueperslides/dist/vueperslides.css";
+// import { VueperSlides, VueperSlide } from "vueperslides";
+// import "vueperslides/dist/vueperslides.css";
 
 export default {
   name: "Portfolio",
@@ -146,9 +146,9 @@ export default {
     Modal,
     VueTabs,
     VTab,
-    VueperSlides,
-    VueperSlide,
-    DesignModal,
+    // VueperSlides,
+    // VueperSlide,
+    // DesignModal,
   },
   props: {
     nightMode: {
@@ -158,12 +158,12 @@ export default {
   data() {
     return {
       all_info: info.portfolio,
-      desgin_info: info.portfolio_design,
+      // desgin_info: info.portfolio_design,
       portfolio_info: [],
       showModal: false,
-      showDesignModal: false,
+      // showDesignModal: false,
       modal_info: {},
-      design_modal_info: {},
+      // design_modal_info: {},
       number: 3,
       showBtn: "show more",
       shower: 0,
@@ -204,10 +204,10 @@ export default {
       this.modal_info = portfolio;
       this.showModal = true;
     },
-    showDesignModalFn(design_portfolio) {
-      this.design_modal_info = design_portfolio;
-      this.showDesignModal = true;
-    },
+    // showDesignModalFn(design_portfolio) {
+    //   this.design_modal_info = design_portfolio;
+    //   this.showDesignModal = true;
+    // },
     showMore() {
       if (this.number != this.all_info.length) {
         this.number += 3;

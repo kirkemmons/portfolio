@@ -66,7 +66,7 @@ let info = {
       date: "March, 2022 - Present",
       position: "Front-end Web Developer (Remote)",
       description:
-        "Contributed new and efficient code to live marketing websites including Austin, TX Alive and Well and Prosthodontics of Texas whilst buidling out new web pages and maintaining existing codebases. Also have built out from scratch various marketing websites that have been re-written with Nuxt.js that include LaundryLuv, ShareGro and ASP-Clips. All live, up and running.",
+        "Contributed new and efficient code to live marketing websites including Austin, TX Alive and Well and Prosthodontics of Texas whilst buidling out new web pages and maintaining existing codebases. Also have built out from scratch various marketing websites that have been re-written with Nuxt.js that include LaundryLuv, ShareGro and ASP-Clips.",
         skills: [
           "Nuxt.js",
           "Vue.js",
