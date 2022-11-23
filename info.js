@@ -62,9 +62,9 @@ let info = {
   experience: [
     {
       name: "Freelance",
-      place: "Ithaca, NY",
+      place: "Remote",
       date: "March, 2022 - Present",
-      position: "Front-end Web Developer (Remote)",
+      position: "Front-end Web Developer",
       description:
         "Contributed new and efficient code to live marketing websites including Austin, TX Alive and Well and Prosthodontics of Texas whilst buidling out new web pages and maintaining existing codebases. Also have built out from scratch various marketing websites that have been re-written with Nuxt.js that include LaundryLuv, ShareGro and ASP-Clips.",
         skills: [
@@ -211,24 +211,24 @@ let info = {
       description:  "Laundrymat website that offers various business laundry services throughout Texas. Built out with Nuxt.js.",
     }
   ],
-   recommendations: [
-    {
-      title:
-        "In his internship, Bogdan Natain has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
-      author: "Timothy Gray",
-      position: "CTO",
-      company: "Startup Norway As",
-      location: " Oslo, Norway"
-    },
-    {
-      title:
-        "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
-      author: "Hansley Jacob",
-      position: "Project Manager",
-      company: "Startup Norway As",
-      location: "Oslo, Norway"
-    }
-  ]
+  //  recommendations: [
+  //   {
+  //     title:
+  //       "In his internship, Bogdan Natain has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
+  //     author: "Timothy Gray",
+  //     position: "CTO",
+  //     company: "Startup Norway As",
+  //     location: " Oslo, Norway"
+  //   },
+  //   {
+  //     title:
+  //       "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
+  //     author: "Hansley Jacob",
+  //     position: "Project Manager",
+  //     company: "Startup Norway As",
+  //     location: "Oslo, Norway"
+  //   }
+  // ]
 };
 
 export default info;
