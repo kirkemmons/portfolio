@@ -169,7 +169,7 @@ export default {
           .then(
             (result) => {
               this.showSnackbar = true;
-              this.snackbarMessage = "Thanks! Message recieved.";
+              this.snackbarMessage = "Thanks! Message received.";
               this.snackbarColor = "#1aa260";
 
               this.email = "";
