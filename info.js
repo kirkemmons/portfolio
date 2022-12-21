@@ -138,13 +138,13 @@ let info = {
       name: "ASP-Clips",
       pictures: [
         {
-          img: require("./src/assets/portfolio/projects/clips2.png")
+          img: require("./src/assets/portfolio/projects/clips1.png")
         },
         {
           img: require("./src/assets/portfolio/projects/clips3.png")
         },
         {
-          img: require("./src/assets/portfolio/projects/clips1.png")
+          img: require("./src/assets/portfolio/projects/clips2.png")
         }
       ],
       technologies: ["Nuxt.js", "Bootstrap","SASS", "Netlify CMS"],
@@ -179,10 +179,10 @@ let info = {
       name: "ShareGro",
       pictures: [
         {
-          img: require("./src/assets/portfolio/projects/ShareGro2.png")
+          img: require("./src/assets/portfolio/projects/ShareGro1.png")
         },
         {
-          img: require("./src/assets/portfolio/projects/ShareGro1.png")
+          img: require("./src/assets/portfolio/projects/ShareGro2.png")
         }
       ],
       technologies: ["Nuxt.js", "Bootstrap","SASS", "Netlify CMS"],
