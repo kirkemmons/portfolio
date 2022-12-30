@@ -1,7 +1,7 @@
 let info = {
   name: "Kirk Emmons",
   logo_name: "Emmons",
-  // flat_picture: require("./src/assets/portrait.png"),
+  flat_picture: require("./src/assets/portrait.png"),
   config: {
     use_cookies: true,
     navbar: {

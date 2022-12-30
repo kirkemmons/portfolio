@@ -21,7 +21,7 @@
           class="location-div ml-auto mt-1 mr-4"
           href="https://goo.gl/maps/Bb7z2zuARmZgyv458"
           target="_blank"
-          v-tooltip.bottom="'Location'"
+          v-tooltip.bottom="'Home'"
         >
           <span 
           class="location-name"
