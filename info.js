@@ -66,7 +66,7 @@ let info = {
       date: "March, 2022 - Present",
       position: "Front-end Web Developer",
       description:
-        "Contributed new and efficient code to live marketing websites including Austin, TX Alive and Well and Prosthodontics of Texas whilst buidling out new web pages and maintaining existing codebases. Also have built out from scratch various marketing websites that have been re-written with Nuxt.js that include LaundryLuv, ShareGro and ASP-Clips.",
+        "I have extensive experience building and maintaining websites using Nuxt.js, a JavaScript framework based on Vue.js. I have used this technology to develop several marketing websites, including LaundryLuv, ShareGro, 464-Ranch, and ASP-Clips. In each of these projects, I was responsible for the full development process, including implementing new features and functionality, debugging and troubleshooting issues. In addition, I regularly help maintain existing code-bases, such as Alive and Well Austin, on a weekly basis. I have also built out new webpages for an existing codebase called Prosthodontics of Texas, demonstrating my ability to work with and enhance existing code. I have a strong understanding of the Nuxt.js framework and have used it to create dynamic and responsive websites that meet the needs of my clients.",
         skills: [
           "Nuxt.js",
           "Vue.js",
