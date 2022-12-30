@@ -10,21 +10,34 @@
       data-aos-duration="1000"
     >
       <div class="row align-items-center">
+
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
           <img :src="picture" />
         </div>
+
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 py-5 px-4">
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
             >hello there!</span
           >
-          <div>
+
+          <div class="pb-2">
             <p v-html="description"></p>
           </div>
+
           <div class="text-center pb-4">
+
             <button
-              class="btn btn-outline-secondary mx-2 "
+              class="btn btn-outline-secondary mx-2"
+              @click="open('github')"
+              v-tooltip.bottom="'GitHub'"
+            >
+              <i class="fab fa-github"></i>
+            </button>
+
+            <button
+              class="btn btn-outline-secondary mx-2"
               @click="open('linkedin')"
               v-tooltip.bottom="'LinkedIn'"
             >
@@ -33,10 +46,10 @@
 
             <button
               class="btn btn-outline-secondary mx-2"
-              @click="open('github')"
-              v-tooltip.bottom="'GitHub'"
+              @click="open('resume')"
+              v-tooltip.bottom="'Resume'"
             >
-              <i class="fab fa-github"></i>
+              <i class="fa fa-file"></i>
             </button>
 
             <button
@@ -48,13 +61,6 @@
               <i class="fa fa-envelope"></i>
             </button>
 
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('resume')"
-              v-tooltip.bottom="'Resume'"
-            >
-              <i class="fa fa-file"></i>
-            </button>
           </div>
         </div>
       </div>
