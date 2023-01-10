@@ -147,7 +147,7 @@ let info = {
           img: require("./src/assets/portfolio/projects/clips2.png")
         }
       ],
-      technologies: ["Nuxt.js", "Bootstrap","SASS", "Netlify CMS"],
+      technologies: ["Nuxt.js", "Bootstrap","Scss", "Netlify CMS"],
       category: "Marketing Website",
       github: "",
       date: "August, 2022",
@@ -167,13 +167,13 @@ let info = {
         },
 
       ],
-      technologies: ["React.js", "React Router", "Vanilla CSS", "Python", "Django"],
+      technologies: ["React.js", "React Router", "Vanilla CSS", "Python", "Django", "PostgresSQL"],
       category: "Project",
       github: "https://github.com/kirkemmons/directors_client",
       visit: "https://kirkemmons.github.io/directors_client/",
       date: "February, 2022",
       description:
-        "DirectorsUncut is an online database where you can keep track of your favorite directors and movies. The application will feature information on each director and details about their films. The site is authenticated, which allows users to keep track of director and film information that only the signed in user has submitted. Users will be able to add, update and delete directors and films from their list."
+        "DirectorsUncut is a full stack CRUD (Create, Read, Update, and Delete) application that serves as an online database for movie enthusiasts to keep track of their favorite directors and films. The site allows users to authenticate themselves, enabling them to maintain a personalized list of directors and films that only they can access and modify. Users can use the application to perform CRUD operations on the information stored in their personal list. They can add new directors and films, update existing entries, and delete directors and films that they no longer wish to track."
     },
     {
       name: "ShareGro",
@@ -185,7 +185,7 @@ let info = {
           img: require("./src/assets/portfolio/projects/ShareGro2.png")
         }
       ],
-      technologies: ["Nuxt.js", "Bootstrap","SASS", "Netlify CMS"],
+      technologies: ["Nuxt.js", "Bootstrap","Scss", "Netlify CMS"],
       category: "Marketing Website",
       github: "",
       date: "July, 2022",
@@ -203,7 +203,7 @@ let info = {
           img: require("./src/assets/portfolio/projects/laundryluv2.png")
         }
       ],
-      technologies: ["Nuxt.js", "Bootstrap","SASS", "Netlify CMS"],
+      technologies: ["Nuxt.js", "Bootstrap","Scss", "Netlify CMS"],
       category: "Marketing Website",
       github: "",
       date: "April, 2022",
