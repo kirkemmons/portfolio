@@ -82,7 +82,7 @@ let info = {
   ],
   skills: [
     {
-      title: "languages",
+      title: "Languages",
       info: [
         "Javascript",
         "CSS",
@@ -100,22 +100,22 @@ let info = {
     //   icon: "fa fa-cubes"
     // },
     {
-      title: "web technologies",
-      info: ["Vue.js",  "Nuxt.js", "React.js", "Node.js", "Express.js", "Django", "HTML", "CSS", "HTTP", "REST"],
+      title: "Web Technologies/Libraries",
+      info: ["Vue",  "Nuxt.js", "React", "Node.js", "Express", "Django", "HTTP", "RESTApi"],
       icon: "fas fa-laptop-code"
     },
     {
-      title: "databases",
+      title: "Databases",
       info: ["MongoDB", "SQL", "PostgresSQL"],
       icon: "fa fa-database"
     },
+    // {
+    //   title: "Design",
+    //   info: ["Illustrator", "Photoshop"],
+    //   icon: "fa fa-pencil-square-o"
+    // },
     {
-      title: "design",
-      info: ["Illustrator", "Photoshop"],
-      icon: "fa fa-pencil-square-o"
-    },
-    {
-      title: "operating systems & tools",
+      title: "Operating Systems & Tools",
       info: [
         "MacOS",
         "Windows",

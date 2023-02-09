@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >contact.</span
+          >Contact.</span
         >
       </div>
       <hr
@@ -37,7 +37,7 @@
             type="text"
             name="user_name"
             v-model="name"
-            placeholder="name"
+            placeholder="Name"
             class="pinput"
             :class="{
               'bg-light2': !nightMode,
@@ -58,7 +58,7 @@
             type="email"
             name="user_email"
             v-model="email"
-            placeholder="email"
+            placeholder="Email"
             class="pinput"
             :class="{
               'bg-light2': !nightMode,
@@ -78,7 +78,7 @@
           <textarea
             name="message"
             v-model="text"
-            placeholder="message"
+            placeholder="Message"
             class="pinput"
             rows="4"
             :class="{

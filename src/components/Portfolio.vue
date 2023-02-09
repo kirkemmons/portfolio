@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >portfolio.</span
+          >Portfolio.</span
         >
       </div>
       <hr
@@ -26,11 +26,11 @@
       />
 
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
-        <v-tab title="projects &amp; professional experience">
+        <v-tab title="Projects &amp; Professional Experience">
 
           <div class="row">
             <div
-              class="col-xl-4 col-bg-4 col-md-6 col-sm-12"
+              class="col-xl-4 col-bg-4 col-md-6 col-sm-12 mt-3"
               v-for="(portfolio, idx) in portfolio_info"
               :key="idx"
             >
@@ -55,13 +55,13 @@
           </div>
         </v-tab>
 
-        <v-tab title="design">
+        <!-- <v-tab title="design">
           <div class="row">
             <div
               class="col-xl-4 col-bg-4 col-md-6 col-sm-12"
               v-for="(professional, idx) in professional_info"
               :key="idx"
-            >
+            > -->
               <!-- <vueper-slides
                 :dragging-distance="50"
                 fixed-height="300px"
@@ -99,10 +99,10 @@
                   read more
                 </button> -->
               
-            </div>
+            <!-- </div>
           </div>
 
-        </v-tab>
+        </v-tab> -->
       </vue-tabs>
     </div>
     <transition name="modal">

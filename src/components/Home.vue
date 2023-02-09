@@ -19,7 +19,7 @@
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >hello there!</span
+            >hey there!</span
           >
 
           <div class="pb-2">
